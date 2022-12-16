@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9392254b-6e2a-48f3-b2e3-f75cb1070b3a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lld/designPattern/builder/v1/BuilderV1Parameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lld/designPattern/builder/v1/ClientV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lld/designPattern/builder/v1/TargetV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lld/designPattern/builder/v2/ClientV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lld/designPattern/builder/v2/TargetV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lld/designPattern/singleton/ClientSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lld/designPattern/singleton/SingletonV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lld/designPattern/singleton/SingletonV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lld/designPattern/singleton/SingletonV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lld/designPattern/singleton/SingletonV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/DemoThreadUnsafe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/Demonstration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/Demo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,15 +45,17 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Java/LLD/LLD/src/main/java/lld/designPattern/builder/v2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/LLD/LLD/src/main/java/multithreading&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\LLD\LLD\src\main\java\multithreading" />
       <recent name="D:\Java\LLD\LLD\src\main\java\lld\designPattern\builder\v2" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -81,35 +66,35 @@
       <recent name="lld.designPattern.singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo1">
-    <configuration name="ClientV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lld.designPattern.builder.v1.ClientV1" />
-      <module name="LLD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lld.designPattern.builder.v1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClientV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lld.designPattern.builder.v2.ClientV2" />
-      <module name="LLD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lld.designPattern.builder.v2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Demo3">
     <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.Demo1" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.Demo2" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.Demo3" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
@@ -149,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo3" />
+        <item itemvalue="Application.Demo2" />
         <item itemvalue="Application.Demo1" />
-        <item itemvalue="Application.DemoThreadUnsafe" />
         <item itemvalue="Application.Demonstration" />
-        <item itemvalue="Application.ClientV2" />
-        <item itemvalue="Application.ClientV1" />
+        <item itemvalue="Application.DemoThreadUnsafe" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +157,8 @@
       <workItem from="1662184701015" duration="14245000" />
       <workItem from="1665417770143" duration="132000" />
       <workItem from="1671010706147" duration="6254000" />
-      <workItem from="1671203675142" duration="430000" />
+      <workItem from="1671203675142" duration="4684000" />
+      <workItem from="1671259526537" duration="702000" />
     </task>
     <servers />
   </component>
@@ -212,6 +198,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/multithreading/Demonstration.java</url>
           <line>32</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/DemoThreadUnsafe.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/Demonstration.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/Demo1.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/Demo1.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/Demo1.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
