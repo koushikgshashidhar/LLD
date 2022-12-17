@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9392254b-6e2a-48f3-b2e3-f75cb1070b3a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/Demo3.java" afterDir="false" />
+    <list default="true" id="9392254b-6e2a-48f3-b2e3-f75cb1070b3a" name="Changes" comment="Merge branch 'main' of https://github.com/koushikgshashidhar/LLD">
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/Demo4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +65,7 @@
       <recent name="lld.designPattern.singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo3">
+  <component name="RunManager" selected="Application.Demon4">
     <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.Demo1" />
       <module name="LLD" />
@@ -106,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoThreadUnsafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.DemoThreadUnsafe" />
+    <configuration name="Demon4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.Demon4" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demon4" />
         <item itemvalue="Application.Demo3" />
         <item itemvalue="Application.Demo2" />
         <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.Demonstration" />
-        <item itemvalue="Application.DemoThreadUnsafe" />
       </list>
     </recent_temporary>
   </component>
@@ -158,8 +157,16 @@
       <workItem from="1665417770143" duration="132000" />
       <workItem from="1671010706147" duration="6254000" />
       <workItem from="1671203675142" duration="4684000" />
-      <workItem from="1671259526537" duration="702000" />
+      <workItem from="1671259526537" duration="4679000" />
     </task>
+    <task id="LOCAL-00001" summary="Merge branch 'main' of https://github.com/koushikgshashidhar/LLD">
+      <created>1671260752273</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671260752273</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +182,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'main' of https://github.com/koushikgshashidhar/LLD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'main' of https://github.com/koushikgshashidhar/LLD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
